@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignments</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .header {
+        /* background-color: #007bff; */
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-size: 18px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+
+      .container {
+        margin: 0 auto;
+        max-width: 800px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+      }
+
+      .name-container {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        padding: 20px;
+        border-bottom: 1px solid #ccc;
+      }
+
+      .left-container {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        align-items: center;
+      }
+
+      .right-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+
+      .name {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .reg-no {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      .slot {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      .avatar {
+        width: 150px;
+        height: 190px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .assignment-header {
+        background-color: orangered;
+        color: black;
+        padding: 10px;
+        text-align: center;
+        font-size: 16px;
+      }
+
+      .assignment-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 20px;
+        border-bottom: 1px solid #ccc;
+        padding: 20px;
+        gap: 10px;
+      }
+
+      .assignment-card {
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 10px;
+      }
+
+      .assignment-text {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      .bold {
+        font-weight: bold;
+      }
+
+      .light-bold {
+        font-weight: lighter;
+      }
+
+      .btn {
+        padding: 5px 10px;
+        font-size: 16px;
+        color: white;
+        background-color: orange;
+        text-align: center;
+        display: inline-block;
+        border-radius: 5px;
+        text-decoration: none;
+      }
+
+      .btn:hover {
+        background-color: orangered;
+      }
+      footer {
+        background-color: orangered;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        font-size: 16px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        width: 780px;
+
+        align-items: center;
+      }
+      .footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">Assignments</div>
+
+    <div class="container">
+      <div class="name-container">
+        <div class="left-container">
+          <div class="name">Burra Likitha</div>
+          <div class="reg-no">
+            Registration number:&nbsp;<span class="bold">21MIC7158</span>
+          </div>
+          <div class="slot">
+            Slot:&nbsp;<span class="light-bold">F2+TF2</span>
+          </div>
+        </div>
+
+        <div class="right-container">
+          <img src="img.jpeg" alt="Avatar" class="avatar" />
+        </div>
+      </div>
+
+      <div class="assignment-header">Your Assignments</div>
+
+      <div class="assignment-container">
+        <div class="assignment-card">
+          <div class="assignment-text">
+            <span class="bold">Layout-1</span>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;A responsive grid layout
+          </div>
+          <a
+            href="https://65218a52d713cf1b7162c799--profound-cranachan-fe8b72.netlify.app/"
+            class="btn"
+            >Submit</a
+          >
+        </div>
+
+        <div class="assignment-card">
+          <div class="assignment-text">
+            <span class="bold">Nav</span>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;A responsive nav layout
+          </div>
+          <a
+            href="https://65217db0ada01b1198388b87--guileless-nasturtium-858ce9.netlify.app/"
+            class="btn"
+            >Submit</a
+          >
+        </div>
+      </div>
+
+      <div class="assignment-container">
+        <div class="assignment-card">
+          <div class="assignment-text">
+            <span class="bold">Calculator</span>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;A simple Calculator
+          </div>
+          <a
+            href="https://65218f3b8fddba1c8adad8ec--famous-hummingbird-8316ed.netlify.app/"
+            class="btn"
+            >Submit</a
+          >
+        </div>
+
+        <div class="assignment-card">
+          <div class="assignment-text">
+            <span class="bold">Clock</span>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;A simple digital analog clock
+          </div>
+          <a
+            href="https://652175aac73111091bbd8079--dreamy-beignet-0125f6.netlify.app/"
+            class="btn"
+            >Submit</a
+          >
+        </div>
+      </div>
+
+      <div class="assignment-container">
+        <div class="assignment-card">
+          <div class="assignment-text">
+            <span class="bold">DOM Assignment</span>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;A space where elements can be added or
+            deleted
+          </div>
+          <a
+            href="https://652180924195590f92240d8d--profound-creponne-36565c.netlify.app/"
+            class="btn"
+            >Submit</a
+          >
+        </div>
+
+        <div class="assignment-card">
+          <div class="assignment-text">
+            <span class="bold">Slider</span>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;Slider which moves with timer
+          </div>
+          <a
+            href="https://65218d761e9f461b6482795d--unrivaled-taiyaki-07970c.netlify.app/"
+            class="btn"
+            >Submit</a
+          >
+        </div>
+      </div>
+
+      <div class="assignment-container">
+        <div class="assignment-card">
+          <div class="assignment-text">
+            <span class="bold">Login Validation</span>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;A Login page valadtion done with PHP
+          </div>
+          <a href="https://21mic7158.000webhostapp.com/login.html" class="btn"
+            >Submit</a
+          >
+        </div>
+
+        <div class="assignment-card">
+          <div class="assignment-text">
+            <span class="bold">Regex Checker</span>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;Form should satisfy all the requirements
+          </div>
+          <a href="https://likkibot678.000webhostapp.com/" class="btn"
+            >Submit</a
+          >
+        </div>
+      </div>
+      <div class="assignment-container">
+        <div class="assignment-card">
+          <div class="assignment-text">
+            <span class="bold">grid-layout-2</span>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;A Login page valadtion done with PHP
+          </div>
+          <a
+            href="https://65219e6d83e18d2581facffd--fascinating-haupia-d7c589.netlify.app/"
+            class="btn"
+            >Submit</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <footer>
+        <p>Email: likitha.21mic7158@vitapstudent.ac.in</p>
+        <p>Contact: 9148211094</p>
+      </footer>
+    </div>
+  </body>
+</html>
